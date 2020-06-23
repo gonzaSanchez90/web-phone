@@ -1,0 +1,23 @@
+{
+  "name": "trabajo-final",
+  "version": "1.0.0",
+  "description": "Trabajo Final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Los Magios",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-router": "0.0.1",
+    "favicon": "0.0.2",
+    "mongoose": "^5.7.12",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.1",
+    "router": "^1.3.3",
+    "serve-favicon": "^2.5.0"
+  }
+}

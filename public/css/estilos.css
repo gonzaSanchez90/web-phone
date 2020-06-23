@@ -1,0 +1,574 @@
+/* -----------------------------------Menu------------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    max-height: 150px;
+    background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(53, 202, 51, 0.5)),url(../img/smartphone.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.administrador{
+    position: relative !important;
+    top: 0;
+    float: right;
+    right: 0%;
+}
+.imgprincipal{
+    position: relative !important;
+    bottom: 15%;
+    left: 0%;
+    width:100%;
+    height: 100%;
+}
+.botonesMenu{
+   width: 100%;
+   height: 100%;
+  padding: 2%;
+  bottom: 0px;
+   
+}
+.botonesMenu ul{
+    width: 100%;
+    height: 100%;
+    position: relative; 
+}
+.botonesMenu ul li{
+    width: 33%;
+   height: 100%;
+    position: relative;
+    float: none;
+    top: 100%;
+    text-align:  center;
+    padding: 0 auto;
+}
+.botonesMenu ul li a{
+    width: 100%;
+   height: 100%;
+    position: relative;
+    float: none;
+    top: 100%;
+    font-size: 1.8vw;
+    text-align:  center;
+    padding: 0 auto;
+    color:#fff;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+.botonesMenus ul li div a{
+    color:rgb(2, 34, 1);
+    background-color: rgba(247, 253, 248, 0.171);
+    opacity:0.9;
+    text-decoration: none;
+    font-size:20px;
+    opacity:100%;
+    font-family: 'Merriweather', serif;background-color: #00ff2a45 !important;
+}
+.admin{
+    color: rgb(167, 96, 16)!important;
+    text-decoration: none !important;
+    font-size: 1.2vw;
+    font-weight: 600;
+    font-family: 'Calistoga', cursive;
+}
+.interiores a{
+
+    color: rgb(0, 197, 33) !important;
+}
+
+.interiores {
+    background: linear-gradient( rgb(0, 19, 0),rgba(0, 55, 255, 0.85));
+    opacity: 0.8;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* -----------------------------------Menu------------------------------------------------- */
+/* -----------------------------------Footer----------------------------------------------- */
+.PiePag li a{
+    font-size:20px;
+    font-family: 'Arvo', serif;
+    color: #fffffa;
+    font-weight: bold;
+}
+.fixed-bottom{
+    width: 100%;
+    height: 50px;
+    z-index: 0; 
+    background: linear-gradient( rgba(53, 202, 51, 0.5),rgba(0, 0, 255, 0.5)),url(../img/smartphone.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* -----------------------------------Footer----------------------------------------------- */
+/* -----------------------------------BODY------------------------------------------------- */
+body{
+    height: 200px !important;
+    background: linear-gradient(rgba(110, 255, 0, 0.18), rgba(25, 119, 72, 0.24)),url(../img/smartphone.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.btn-lg1 {
+padding: 89px 133px !important;
+font-size: 1.25rem !important;
+line-height: 1.5 !important;
+border-radius: .3rem !important;
+}
+/* -----------------------------------BOODY------------------------------------------------- */
+/* -----------------------------------ADMINISTRADOR------------------------------------------------- */
+.menuAdmin{
+    top: 0;
+    position: relative;
+    max-width: 100% !important;
+}
+.volver{
+    top: 200px;
+    position: relative;
+}
+/* -----------------------------------BOTONES VOLVER------------------------------------------------- */
+.botones{
+    top: 200px;
+    margin: 3%;
+}
+.botonVolver{
+    position: relative;
+    float: none;
+    top: 100px;
+    left: 546px;
+    font-size: 30px;
+}
+.botonVolverInterno{
+    position: relative;
+    float: none;
+    top: 305px;
+    left: 452px;
+    font-size: 30px;
+}
+/* -----------------------------------BOTONES VOLVER------------------------------------------------- */
+/* -----------------------------------formularios CRUD------------------------------------------------- */
+.formularios{
+    top: 0px;
+    position: relative;
+}
+.formulariosAlta{
+    text-align: center;
+    top: 50px !important;
+    left: 75px !important;
+}
+.formulariosBaja{
+    text-align: center;
+    top: 50px  !important;
+    left: 75px !important;
+}
+.iconito{
+    display: none;
+    color: red;
+    position: absolute;
+    top: 7px;
+    left: 90%;
+}
+.iconito2{
+    display: block;
+    color: red;
+    position: absolute;
+    top: 7px;
+    left: 90%;
+}
+.formulariosModificar{
+    text-align: center;
+    top: 50px  !important;
+    left: 75px !important;
+}
+.formulariosModificar2{
+    text-align: center;
+    top: 50px !important;
+    left: 75px !important;
+}
+.formulariosModificar2 span
+{
+    color: white;
+    font-size: 18px;
+}
+.formulariosMostrar{
+    text-align: center;
+    position: relative;
+    top: 350px;
+    z-index: 999;
+}
+.A{
+    text-align: center;
+}
+/* -----------------------------------formularios MOSTRAR------------------------------------------------- */
+.padre{
+    position: relative;
+    float: none;
+    top: 0;
+    margin-bottom: 70px;
+    margin-right: 100px !important;
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    flex-wrap: wrap;
+}
+.padre li{
+    list-style: none;
+}
+.papas{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(2, 104, 15, 0.65));
+}
+.papa{
+    border: solid 3px black;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 24%;
+    padding: 1% 1%;
+    background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(2, 104, 15, 0.65));
+    color: whitesmoke;
+}
+.papa2{
+    border: solid 3px black;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 24%;
+    padding: 1% 1%;
+    background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(2, 104, 15, 0.65));
+    color: whitesmoke;
+}
+/* -----------------------------------formulario MOSTRAR------------------------------------------------- */
+/* -----------------------------------formularios CRUD------------------------------------------------- */
+/* -----------------------------------formulario nosotros------------------------------------------------- */
+.nosotros{
+	background:linear-gradient(rgba(49, 243, 87, 0.5), rgba(247, 247, 247, 0.5)),url("/img/fondoNosotros.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    border-radius: 50px;
+    top: 300px;
+    margin-bottom: 3%;
+}
+.nosotros h1,h2,p{
+	color:white;
+}
+.nosotros h1{
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 800;
+    color: rgb(170, 19, 19);
+	}
+.nosotros p{
+	   font-size:20px;
+	   font-style:italic;
+}
+.nosotrosInt{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	text-align: center;
+}
+.nosotrosInt div{
+	padding:15px;
+    border: 3px solid black;
+}
+.divInterno{
+    border-radius: 50px;
+    margin: 1%;
+    border: 3px solid black;
+}
+.divInterno h2{
+    font-family: 'Permanent Marker', cursive;
+}
+.divInterno p{
+    font-family: 'Kalam', cursive;
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+}
+.IMG{
+    max-width: 150px;
+    max-height: 150px; 
+}
+/* -----------------------------------formulario nosotros------------------------------------------------- */
+/* -----------------------------------formulario quienes somos-------------------------------------------- */
+.quienesSomos{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+}
+.quienesSomos2{
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+}
+.leo{
+    position: relative;
+    top: 0px;
+}
+.leo2{
+    top: 0px;
+    left: 61px;
+}
+.imgLeo1{
+    position: relative;
+    margin: 3%;
+    top: 0px;
+    width: 25%;
+    height: 25%;
+}
+.imgLeo2{
+    position: relative;
+    margin: 1%;
+    top: 10px;
+    margin-bottom: 5%;
+    width: 25%;
+    height: 25%;
+}
+.quienesSomos h3{
+    position: relative;
+    width: 25%;
+    height: 25%;
+    color: rgb(0, 174, 255);
+    font-family: 'Acme', sans-serif;
+    background: linear-gradient( rgba(0, 19, 0, 0.95),rgba(0, 0, 255, 0.308));
+    top: 0;
+    padding: 1%;
+    border-radius: 50px;
+}
+.quienesSomos2 h3{
+	position:relative;
+	width: 30%;
+    height: 25%;
+    color: rgb(255, 0, 0);
+    background: linear-gradient( rgba(0, 19, 0, 0.95),rgba(0, 0, 255, 0.308));
+    font-family: 'Acme', sans-serif;
+    padding: 1%;
+    border-radius: 50px;
+}
+/* -----------------------------------formulario quienes somos--------------------------------------- */
+/* -----------------------------------formulario contacto-------------------------------------------- */
+.direcciongeneral{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 800px;
+    width: 100%;
+    top: 0 !important;
+    background: linear-gradient( rgba(0, 19, 0, 0.95),rgba(0, 0, 255, 0.308));
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.mapa{
+    position: relative;
+    left: 10%;
+    border-radius: 300px !important;
+}
+.icono{
+    border: 2px solid rgb(91, 160, 12);
+    border-radius: 50px;
+    padding: 5%;
+    font-size: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: rgb(91, 160, 12);
+}
+.icono2{
+    border: 2px solid rgb(91, 160, 12);
+    border-radius: 50px;
+    padding: 5%;
+    font-size: 50px;
+    margin-right:5%;
+    margin-top: 5%;
+    color: rgb(91, 160, 12);
+}
+.icono3{
+    border: 2px solid rgb(91, 160, 12);
+    border-radius: 50px;
+    padding: 5%;
+    font-size: 50px;
+    margin-right: 2%;
+    margin-top: 5%;
+    color: rgb(91, 160, 12);
+}
+.icono4{  
+    border: 2px solid rgb(91, 160, 12);
+    border-radius: 50px;
+    padding: 5%;
+    font-size: 50px;
+    margin-right: 2%;
+    margin-top: -3%;
+    color: rgb(91, 160, 12);
+}
+.letras{
+    position: relative;
+    left: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2%;
+    top: -2%;
+    color: white;
+}
+.letras2{
+    position: relative;
+    left: 15%;
+    top: -7%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2%;
+    color: white;
+}
+.letras21{
+    position: relative;
+    left: 38%;
+    top: -15%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2%;
+    color: white;
+}
+.letras3{
+    position: relative;
+    left: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding: 2%;
+    top: -3%;
+    color: white;
+}
+.letrasPrim{
+    font-family: 'Solway', serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.letrasPrime{
+    font-family: 'Solway', serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.colums{
+    margin-right: -160px !important;
+    margin-left: -120px !important;
+    margin-top: 0px;
+}
+.primero{
+    max-width: 31% !important;
+    margin-right: 20px;
+ 
+}
+.segundo{
+    max-width: 31% !important;
+    margin-right: 20px;
+   
+}
+.tercero{
+    max-width: 31% !important;
+   
+}
+/* -----------------------------------formulario quienes somos-------------------------------------------- */
+/* -----------------------------------formulario forma de pagos------------------------------------------- */
+.formadepagos{
+    margin: 3%;
+    position: relative;
+    top: 20px !important;
+    color: white;
+    background: linear-gradient( rgba(0, 19, 0, 0.95),rgba(0, 0, 255, 0.308));
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.formadepagos ul{
+    position: relative;
+    left: 2%;
+    
+}
+.error{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    height: 600px;
+    width: 100%;
+    top: 800px !important;
+    background: linear-gradient( rgba(248, 9, 9, 0.986),rgba(255, 0, 0, 0.850));
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.error i{
+   font-size: 150px;
+   color: white;
+   margin: 1%;
+}
+.errorInterno{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    text-align: center;
+}
+.errorInterno h1{
+    font-size: 50px;
+}
+.errorInterno p{
+    position: relative;
+    top: 100%;
+    left: 5%;
+    font-size: 15px;
+    color: rgb(11, 19, 128);
+}
+.errorInterno p i{
+   font-size: 80px;
+   color: rgb(11, 19, 128);
+   margin: 1%;
+}
+.errorInterno2{
+    position: relative;
+    top: 5%;
+    margin: 0 auto;
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+    max-width: 10%;
+}
+.errorInterno h1{
+    max-width: 30%;
+}
+/* -----------------------------------formulario forma de pagos------------------------------------------- */
+.carrusel{
+    top: 0;
+    position: relative;
+}
+.imgn{
+    height: 630px !important;
+    width: 100% !important;
+}
